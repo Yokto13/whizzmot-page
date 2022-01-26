@@ -1,0 +1,46 @@
+[set-doc-lang english]
+[style
+  [var sans-serif; -apple-system,BlinkMacSystemFont,"Avenir Next",Avenir,"Nimbus Sans L",Roboto,Noto,"Segoe UI",Arial,Helvetica,"Helvetica Neue",sans-serif]
+  [var whizzmot-color; #5eff3f]
+  [var whizzmot-color-darker; #11bf00]
+  [rule a;
+    [: color; [var whizzmot-color]]
+    [: text-decoration; none]
+    [: font-weight; 600]
+  ]
+  [rule body;
+    [: margin; auto]
+    [: max-width; 800px]
+    [: font-family; [var sans-serif]]
+  ]
+  [rule [h*];
+    [: color; [var whizzmot-color-darker]]
+  ]
+  [rule h1;
+    [: font-size; 5rem]
+    [: margin; 1rem 0]
+  ]
+  [rule img;
+    [: max-width; 100%]
+  ]
+  [rule nav;
+    [: display; flex]
+    [: flex-flow; row nowrap]
+    [: gap; .5rem]
+    [: padding; .5rem]
+    [: background-color; [var whizzmot-color]]
+  ]
+  [rule nav > a;
+    [: color; #000]
+  ]
+]
+[<header>
+  [<h1> Whizzmot]
+  [<nav>
+    [link Projects; /projects.html]
+    •
+    [link About; ]
+    •
+    [link Thelm (source of random wisdom); ]
+  ]
+]
