@@ -1,0 +1,42 @@
+[inject head.xd]
+Please note that not everything here was authored by all of us.
+To get the respective authors it is best to check the project itself.
+[section Android apps;
+[section Connect Neurons;
+		A game in which you will practice your logical thinking. 
+		Your task is to connect neurons in a way that the number of connections of each neuron equals its value. 
+		But be careful – no two connections can intersect.
+
+		We wrote this a long time ago in Xamarin and C#.
+
+		[link Google Play; https://play.google.com/store/apps/details?id=com.whizzmot.connectneurons]
+	]
+
+	[section Grand Historian;
+		A quiz where you can test your knowledge of history in different areas --- 
+		ranging from Ancient Greece to the Second World War!
+
+		This was our first Flutter project. The app is far from perfect but the questions are great mostly thanks
+		to our friend Tomáš Lávička who spent a lot of time coming up with most of them.
+
+		[link Google Play; https://play.google.com/store/apps/details?id=com.whizzmot.grandhistorian]
+	]
+
+	[section Old-school Snake;
+		An arcade game in which you play as a snake and your task is to eat food 
+		and grow in lenght as much as you can. 
+
+		This was again written a long long time ago using Xamarin and C#.
+		[link Google Play; https://play.google.com/store/apps/details?id=com.whizzmot.snake]
+	]
+]
+	[section IYPT 19/20;
+		Together with Ondra Baštař and Viki Valdmanová we attended the Czech round of 
+		the International Young Physicists Tournament 2019/20. 
+		There was no tradition of IYPT on our highschool and we had hard time figuring out 
+		how a great solution should be structured. 
+		That's why we share our solutions to two of the problems.
+		So anybody interested can read them and learn from them.
+		(TODO add the links)
+		Those solutions were recieved well although in the end didn't win the first place.
+]
