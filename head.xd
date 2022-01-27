@@ -18,8 +18,18 @@
     [: color; [var whizzmot-color-darker]]
   ]
   [rule h1;
+    [: display; flex]
+    [: flex-direction; row nowrap]
+    [: align-items; baseline]
     [: font-size; 5rem]
-    [: margin; 1rem 0]
+    [: margin; 1rem 0 0]
+  ]
+  [rule h1 > img;
+    [: height; 1em]
+    [: width; calc(1em*17/16)]
+  ]
+  [rule header;
+    [: margin; 0 0 1rem]
   ]
   [rule img;
     [: max-width; 100%]
@@ -34,9 +44,12 @@
   [rule nav > a;
     [: color; #000]
   ]
+  [rule p;
+    [: margin; 0 0 1rem]
+  ]
 ]
 [<header>
-  [link [<h1> Whizzmot]; /]
+  [link [<h1> [<img> width=680; height=640; src="/whizzmot.png"] Whizzmot]; /]
   [<nav>
     [link Projects; /projects.html]
     •
