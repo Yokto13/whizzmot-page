@@ -5,7 +5,7 @@
   [var whizzmot-color; #5eff3f]
   [var whizzmot-color-darker; #11bf00]
   [rule a;
-    [: color; [var whizzmot-color]]
+    [: color; [var whizzmot-color-darker]]
     [: text-decoration; none]
     [: font-weight; 600]
   ]
