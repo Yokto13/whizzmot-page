@@ -18,6 +18,7 @@
     [: color; [var whizzmot-color-darker]]
   ]
   [rule h1;
+    [: color; [var whizzmot-color]]
     [: display; flex]
     [: flex-direction; row nowrap]
     [: align-items; baseline]
@@ -48,8 +49,11 @@
     [: margin; 0 0 1rem]
   ]
 ]
+[add-to-head
+  [<link> rel="icon"; href="/whizzmot.svg"]
+]
 [<header>
-  [link [<h1> [<img> width=680; height=640; src="/whizzmot.png"] Whizzmot]; /]
+  [link [<h1> [<img> width=680; height=640; src="/whizzmot.svg"] Whizzmot]; /]
   [<nav>
     [link Projects; /projects.html]
     •
