@@ -3,9 +3,9 @@
 [style
   [var sans-serif; -apple-system,BlinkMacSystemFont,"Avenir Next",Avenir,"Nimbus Sans L",Roboto,Noto,"Segoe UI",Arial,Helvetica,"Helvetica Neue",sans-serif]
   [var whizzmot-color; #5eff3f]
-  [var whizzmot-color-darker; #11bf00]
+  [var whizzmot-color-high-contrast; #11bf00]
   [rule a;
-    [: color; [var whizzmot-color-darker]]
+    [: color; [var whizzmot-color-high-contrast]]
     [: text-decoration; none]
     [: font-weight; 600]
   ]
@@ -13,9 +13,11 @@
     [: margin; auto]
     [: max-width; 800px]
     [: font-family; [var sans-serif]]
+    [: background-color; #fff]
+    [: color; #000]
   ]
   [rule [h*];
-    [: color; [var whizzmot-color-darker]]
+    [: color; [var whizzmot-color-high-contrast]]
   ]
   [rule h1;
     [: color; [var whizzmot-color]]
@@ -41,12 +43,22 @@
     [: gap; .5rem]
     [: padding; .5rem]
     [: background-color; [var whizzmot-color]]
+    [: color; #000]
   ]
   [rule nav > a;
-    [: color; #000]
+    [: color; inherit]
   ]
   [rule p;
     [: margin; 0 0 1rem]
+  ]
+  [rule @media(prefers-color-scheme:dark);
+    [rule :root;
+      [var whizzmot-color-high-contrast; #5eff3f]
+    ]
+    [rule body;
+      [: background-color; #000]
+      [: color; #fff]
+    ]
   ]
 ]
 [add-to-head
