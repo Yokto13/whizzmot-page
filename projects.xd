@@ -68,3 +68,17 @@ To get the respective authors, it is best to check the project itself.
 	]
 	[link Czech page; https://tmf.fzu.cz/] of the IYPT for more reference.
 ]
+[section Matikuj (in czech);
+	[p
+		A web for students and teachers to help them with online learning during the COVID-19 pandemic.
+		It contains hundreds of practice problems of varying difficulty 
+		and offers extensive user interface for teachers to remotely examine students.
+	]
+	[p
+		This project was done in colaboration with with [link Ondra Baštař; http://bašta.site/]
+		and Viki Valdmanová.
+	]
+	[p
+		It is currently lives [link here; http://matikuj.sycus.live/].
+	]
+]

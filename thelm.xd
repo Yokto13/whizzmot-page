@@ -1,0 +1,24 @@
+[inject templates/main.xd]
+[p
+	Thelm was the primary source of knowledge for many scholars from the world of no-cellphones.
+	Although this page bears the name of that famous island 
+	there is no guarantee that anything here will be of any usefulness to you.
+]
+[p
+	But who knows.
+]
+[p
+	We don't.
+]
+
+[section MFF notes;
+	[section [link Dominik's active-recall questions; https://github.com/Yokto13/question-sets];
+		Materials are usualy in Czech. They are in csv format to be used with 
+		[link Sphinx; https://github.com/Yokto13/sphinx].
+	]
+]
+[section Miscellaneous;
+	[section [link Ondra's Short introduction to the calculus of sequences ;
+		https://gordonhoklinder.github.io/sequence-calculus/]
+	]
+]
