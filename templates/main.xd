@@ -25,10 +25,10 @@
     [: font-size; 5rem]
     [: margin; 1rem 0 0]
   ]
-  [rule h1 > a;
+  [rule h1 a;
     [: text-decoration; none]
   ]
-  [rule h1 > img;
+  [rule h1 img;
     [: height; 1em]
     [: width; calc(1em*17/16)]
   ]
@@ -47,7 +47,7 @@
     [: color; #000]
     [: font-weight; 600]
   ]
-  [rule nav > a;
+  [rule nav a;
     [: color; inherit]
     [: text-decoration; none]
   ]
@@ -71,7 +71,7 @@
   [<link> rel="icon"; href="/img/whizzmot.svg"]
 ]
 [<header>
-  [link [<h1> [<img> width=680; height=640; src="/img/whizzmot.svg"] Whizzmot]; /]
+  [<h1> [link [<img> width=680; height=640; src="/img/whizzmot.svg"] Whizzmot; /]]
   [<nav>
     [link About; /about.html]
     •
