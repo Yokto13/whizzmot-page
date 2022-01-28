@@ -55,7 +55,7 @@ To get the respective authors, it is best to check the project itself.
 	]
 ]
 [section IYPT 2019/20;
-	Together with Ondra Baštař [link Ondra Baštař; http://bašta.site/]
+	Together with [link Ondra Baštař; http://bašta.site/]
 	and Viki Valdmanová we attended the Czech round of
 	the [link International Young Physicists Tournament; https://www.iypt.org/] 2019/20.
 	There was no tradition of IYPT on our high school and we had a hard time figuring out
@@ -70,7 +70,7 @@ To get the respective authors, it is best to check the project itself.
 	[link Czech page; https://tmf.fzu.cz/] of the IYPT for more reference.
 ]
 [section Matikuj (in czech);
-	[#TODO better description, mention of some of the things it can do.]
+	[# TODO better description, mention of some of the things it can do.]
 	[p
 		A web for students and teachers to help them with online learning during the COVID-19 pandemic.
 		It contains hundreds of practice problems of varying difficulty 
