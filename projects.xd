@@ -54,12 +54,17 @@ To get the respective authors, it is best to check the project itself.
 	]
 ]
 [section IYPT 19/20;
-	Together with Ondra Baštař and Viki Valdmanová we attended the Czech round of
+	Together with [link Ondra Baštař; http://bašta.site/]
+	and Viki Valdmanová we attended the Czech round of
 	the International Young Physicists Tournament 2019/20.
 	There was no tradition of IYPT on our highschool and we had hard time figuring out
 	how a great solution should be structured.
 	That's why we share our solutions to two of the problems.
 	So anybody interested can read them and learn from them.
-	[# TODO: add the links]
 	Those solutions were recieved well although in the end didn't win the first place.
+	[list
+		[link Saxon Bowl; /materials/saxon-bowl.pdf];
+		[link Falling Tower; /materials/falling-tower.pdf];
+	]
+	[link Czech page; https://tmf.fzu.cz/] of the IYPT for more reference.
 ]
