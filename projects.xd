@@ -1,4 +1,4 @@
-[inject head.xd]
+[inject templates/main.xd]
 Please note that not everything here was authored by all of us.
 To get the respective authors it is best to check the project itself.
 [section Android apps;

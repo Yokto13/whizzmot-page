@@ -1,2 +1,2 @@
-[inject head.xd]
-[<img> width=680; height=640; src="/whizzmot.svg"]
+[inject templates/main.xd]
+[<img> width=680; height=640; src="/img/whizzmot.svg"]

@@ -62,10 +62,10 @@
   ]
 ]
 [add-to-head
-  [<link> rel="icon"; href="/whizzmot.svg"]
+  [<link> rel="icon"; href="/img/whizzmot.svg"]
 ]
 [<header>
-  [link [<h1> [<img> width=680; height=640; src="/whizzmot.svg"] Whizzmot]; /]
+  [link [<h1> [<img> width=680; height=640; src="/img/whizzmot.svg"] Whizzmot]; /]
   [<nav>
     [link Projects; /projects.html]
     •
