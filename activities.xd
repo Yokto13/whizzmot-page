@@ -1,0 +1,10 @@
+[inject templates/main.xd]
+[section Long-distance walking;
+	[p When the weather is nice, we sometimes like to challenge ourselves and walk a long distance in one day. Our achievements include:]
+	[table
+		[header-row Start; End; Length; Date]
+		[row Plzeň; Starý Plzenec; [unit ~55; km]; 2020-05-19]
+		[row Starý Plzenec; Strážov; [unit ~70; km]; 2020-06-12]
+		[row Beroun; Rokycany; [unit ~75; km]; 2021-07-26]
+	]
+]

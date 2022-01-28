@@ -6,8 +6,6 @@
   [var whizzmot-color-high-contrast; #11bf00]
   [rule a;
     [: color; [var whizzmot-color-high-contrast]]
-    [: text-decoration; none]
-    [: font-weight; 600]
   ]
   [rule body;
     [: margin; auto]
@@ -27,6 +25,9 @@
     [: font-size; 5rem]
     [: margin; 1rem 0 0]
   ]
+  [rule h1 > a;
+    [: text-decoration; none]
+  ]
   [rule h1 > img;
     [: height; 1em]
     [: width; calc(1em*17/16)]
@@ -44,12 +45,17 @@
     [: padding; .5rem]
     [: background-color; [var whizzmot-color]]
     [: color; #000]
+    [: font-weight; 600]
   ]
   [rule nav > a;
     [: color; inherit]
+    [: text-decoration; none]
   ]
   [rule p;
     [: margin; 0 0 1rem]
+  ]
+  [rule td;
+    [: padding; .2rem]
   ]
   [rule @media(prefers-color-scheme:dark);
     [rule :root;
@@ -67,9 +73,11 @@
 [<header>
   [link [<h1> [<img> width=680; height=640; src="/img/whizzmot.svg"] Whizzmot]; /]
   [<nav>
+    [link About; /about.html]
+    •
     [link Projects; /projects.html]
     •
-    [link About; /about.html]
+    [link Activities; /activities.html]
     •
     [link Thelm (source of random wisdom); /thelm.html]
   ]
