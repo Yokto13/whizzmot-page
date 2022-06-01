@@ -16,6 +16,10 @@
 		Materials are usualy in Czech. They are in csv format to be used with 
 		[link Sphinx; https://github.com/Yokto13/sphinx].
 	]
+	[section Dominik's school notes;
+		Majority of subjects have much better notes but sometimes I just feel the urge
+		to write something down, the result is [link here; https://dominik.whizzmot.dev/notes].
+	]
 ]
 [section Miscellaneous;
 	[section [link Ondra's Short introduction to the calculus of sequences ;
